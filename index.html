@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcyMC V1.3 更新日志</title>
+    <style>
+        :root {
+            --headsize: 64px; /*设置头颅大小*/
+            --pixelsize: calc(var(--headsize)/8);
+        }
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color: white;
+        }
+        .head{
+            width: var(--headsize);
+            height: var(--headsize);
+            background-color: grey;
+            box-shadow: 0 0 15px lightgrey;
+            display: inline-block;
+        }
+        .title p{
+            position: relative;
+            display: inline-block;
+            font-size: 28px;
+            bottom: 4px;
+            left: 4px;
+        }
+        .title{
+            border-bottom: 2px solid grey;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+        }
+        .p{
+            width: var(--pixelsize);
+            height: var(--pixelsize);
+            float: left;
+        }
+        .box{
+            margin: 30px auto;
+            padding: 20px 50px;
+            width:68%;
+            min-width:256px;
+            max-width: 640px;
+            text-align: left;
+            background: rgb(243, 255, 251);
+            border: #28DBDE 8px ridge;
+        }
+        .container p{
+            margin: 2px 0;
+        }
+        .footer{
+            border-top: 2px solid grey;
+            margin-top: 20px;
+            padding-top: 10px;
+            color: grey;
+        }
+
+        .footer a{
+            color:#1EBBBE;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="title">
+            <div class="head" id="open">
+                <!-- 第一行 -->
+                <div class="p" style="background:#28DBDE"></div>
+                <div class="p" style="background:#22DADD"> </div>
+                <div class="p" style="background:#D1D1D1"> </div>
+                <div class="p" style="background:#C9C9C9"> </div>
+                <div class="p" style="background:#C2C2C2"> </div>
+                <div class="p" style="background:#A1A1A1"> </div>
+                <div class="p" style="background:#BFBFBF"> </div>
+                <div class="p" style="background:#C7C7C7"> </div>
+                <!-- 第二行 -->
+                <div class="p" style="background:#22D5D8"> </div>
+                <div class="p" style="background:#D1D1D1"> </div>
+                <div class="p" style="background:#21D1D4"> </div>
+                <div class="p" style="background:#30DCDF"> </div>
+                <div class="p" style="background:#41DEE1"> </div>
+                <div class="p" style="background:#FF29B6"> </div>
+                <div class="p" style="background:#A6A6A6"> </div>
+                <div class="p" style="background:#B0B0B0"> </div>
+                <!-- 第三行 -->
+                <div class="p" style="background:#D6D6D6"> </div>
+                <div class="p" style="background:#20CCCF"> </div>
+                <div class="p" style="background:#1EBFC2"> </div>
+                <div class="p" style="background:#20CCCF"> </div>
+                <div class="p" style="background:#22D5D8"> </div>
+                <div class="p" style="background:#1FC4C7"> </div>
+                <div class="p" style="background:#2E2E2E"> </div>
+                <div class="p" style="background:#FF33BA"> </div>
+                <!-- 第四行 -->
+                <div class="p" style="background:#20CCCF"> </div>
+                <div class="p" style="background:#1EBBBE"> </div>
+                <div class="p" style="background:#FFCCB0"> </div>
+                <div class="p" style="background:#1CB2B5"> </div>
+                <div class="p" style="background:#20CCCF"> </div>
+                <div class="p" style="background:#FFC8AB"> </div>
+                <div class="p" style="background:#1EBBBE"> </div>
+                <div class="p" style="background:#21D1D4"> </div>
+                <!-- 第五行 -->
+                <div class="p" style="background:#1FC4C7"> </div>
+                <div class="p" style="background:#134F4F"> </div>
+                <div class="p" style="background:#104242"> </div>
+                <div class="p" style="background:#FFE1D3"> </div>
+                <div class="p" style="background:#1CB2B5"> </div>
+                <div class="p" style="background:#104242"> </div>
+                <div class="p" style="background:#134F4F"> </div>
+                <div class="p" style="background:#20CCCF"> </div>
+                <!-- 第六行 -->
+                <div class="p" style="background:#134F4F"> </div>
+                <div class="p" style="background:#E8D9E4"> </div>
+                <div class="p" style="background:#319FA0"> </div>
+                <div class="p" style="background:#FFFAF0"> </div>
+                <div class="p" style="background:#FFF3DD"> </div>
+                <div class="p" style="background:#2F9798"> </div>
+                <div class="p" style="background:#E6D6E2"> </div>
+                <div class="p" style="background:#134F4F"> </div>
+                <!-- 第七行 -->
+                <div class="p" style="background:#199D9F"> </div>
+                <div class="p" style="background:#D8FFEC"> </div>
+                <div class="p" style="background:#3BBDBF"> </div>
+                <div class="p" style="background:#FFF7E8"> </div>
+                <div class="p" style="background:#FFEFD3"> </div>
+                <div class="p" style="background:#3BBDBF"> </div>
+                <div class="p" style="background:#CEFFE8"> </div>
+                <div class="p" style="background:#199D9F"> </div>
+                <!-- 第八行 -->
+                <div class="p" style="background:#199D9F"> </div>
+                <div class="p" style="background:#FFD0CF"> </div>
+                <div class="p" style="background:#FFE0D9"> </div>
+                <div class="p" style="background:#FFF3DD"> </div>
+                <div class="p" style="background:#FFEFD3"> </div>
+                <div class="p" style="background:#FFDCD4"> </div>
+                <div class="p" style="background:#FFCBCA"> </div>
+                <div class="p" style="background:#199D9F"> </div>
+            </div>
+
+
+            <div class="head" id="close" style="display: none;">
+                <!-- 第一行 -->
+                <div class="p" style="background:#28DBDE"></div>
+                <div class="p" style="background:#22DADD"> </div>
+                <div class="p" style="background:#D1D1D1"> </div>
+                <div class="p" style="background:#C9C9C9"> </div>
+                <div class="p" style="background:#C2C2C2"> </div>
+                <div class="p" style="background:#A1A1A1"> </div>
+                <div class="p" style="background:#BFBFBF"> </div>
+                <div class="p" style="background:#C7C7C7"> </div>
+                <!-- 第二行 -->
+                <div class="p" style="background:#22D5D8"> </div>
+                <div class="p" style="background:#D1D1D1"> </div>
+                <div class="p" style="background:#21D1D4"> </div>
+                <div class="p" style="background:#30DCDF"> </div>
+                <div class="p" style="background:#41DEE1"> </div>
+                <div class="p" style="background:#FF29B6"> </div>
+                <div class="p" style="background:#A6A6A6"> </div>
+                <div class="p" style="background:#B0B0B0"> </div>
+                <!-- 第三行 -->
+                <div class="p" style="background:#D6D6D6"> </div>
+                <div class="p" style="background:#20CCCF"> </div>
+                <div class="p" style="background:#1EBFC2"> </div>
+                <div class="p" style="background:#20CCCF"> </div>
+                <div class="p" style="background:#22D5D8"> </div>
+                <div class="p" style="background:#1FC4C7"> </div>
+                <div class="p" style="background:#2E2E2E"> </div>
+                <div class="p" style="background:#FF33BA"> </div>
+                <!-- 第四行 -->
+                <div class="p" style="background:#20CCCF"> </div>
+                <div class="p" style="background:#1EBBBE"> </div>
+                <div class="p" style="background:#FFCCB0"> </div>
+                <div class="p" style="background:#1CB2B5"> </div>
+                <div class="p" style="background:#20CCCF"> </div>
+                <div class="p" style="background:#FFC8AB"> </div>
+                <div class="p" style="background:#1EBBBE"> </div>
+                <div class="p" style="background:#21D1D4"> </div>
+                <!-- 第五行 -->
+                <div class="p" style="background:#1FC4C7"> </div>
+                <div class="p" style="background:#FFCCB0"> </div>
+                <div class="p" style="background:#FFE1D3"> </div>
+                <div class="p" style="background:#FFE1D3"> </div>
+                <div class="p" style="background:#1CB2B5"> </div>
+                <div class="p" style="background:#FFE1D3"> </div>
+                <div class="p" style="background:#FFCCB0"> </div>
+                <div class="p" style="background:#20CCCF"> </div>
+                <!-- 第六行 -->
+                <div class="p" style="background:#134F4F"> </div>
+                <div class="p" style="background:#134F4F"> </div>
+                <div class="p" style="background:#104242"> </div>
+                <div class="p" style="background:#FFFAF0"> </div>
+                <div class="p" style="background:#FFF3DD"> </div>
+                <div class="p" style="background:#134F4F"> </div>
+                <div class="p" style="background:#104242"> </div>
+                <div class="p" style="background:#134F4F"> </div>
+                <!-- 第七行 -->
+                <div class="p" style="background:#199D9F"> </div>
+                <div class="p" style="background:#FFD0CF"> </div>
+                <div class="p" style="background:#FFE0D9"> </div>
+                <div class="p" style="background:#FFF7E8"> </div>
+                <div class="p" style="background:#FFEFD3"> </div>
+                <div class="p" style="background:#FFDCD4"> </div>
+                <div class="p" style="background:#FFCBCA"> </div>
+                <div class="p" style="background:#199D9F"> </div>
+                <!-- 第八行 -->
+                <div class="p" style="background:#199D9F"> </div>
+                <div class="p" style="background:#FFD0CF"> </div>
+                <div class="p" style="background:#FFE0D9"> </div>
+                <div class="p" style="background:#FFF3DD"> </div>
+                <div class="p" style="background:#FFEFD3"> </div>
+                <div class="p" style="background:#FFDCD4"> </div>
+                <div class="p" style="background:#FFCBCA"> </div>
+                <div class="p" style="background:#199D9F"> </div>
+            </div>
+            <p> Ecy<font color="#3BBDBF">MC</font> <font style="font-size: 15px;color:grey;">v1.3</font></p>
+        </div>
+        <div class="container">
+            <p>更新了有新版本的MOD</p>
+            <p>修改默认物品管理器为REI（JEI有BUG，你可以手动关闭REI，开启JEI）</p>
+            <p>删除了多余光影，保留部分有效光影。</p>
+            <p>新增ComplementaryShaders光影配置文件</p>
+            <p>新增材质包Bare Bones</p>
+            <p>默认GUI界面修改为Prime's HD Textures的GUI界面</p>
+            <p>默认材质包使用原版材质，而不是OCD</p>
+        </div>
+        <div class="footer">
+            <p>Copyright &copy 2022 <a href="https://www.ecy.pink">EcyPink Team</a> ,All Rights Reserved.</p>
+        </div>
+    </div>
+    <script>
+        var open = document.getElementById("open");
+        var close = document.getElementById("close");
+        open.addEventListener("click",toClose);
+        function toOpen(){
+            close.style.display = "none";
+            open.style.display = "inline-block";
+        }
+        function toClose(){
+            open.style.display = "none";
+            close.style.display = "inline-block";
+            setTimeout(()=>{toOpen()},300);
+        }
+    </script>
+</body>
+</html>
